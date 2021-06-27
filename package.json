@@ -1,5 +1,5 @@
 {
-  "name": "NLW-TgT",
+  "name": "RocketQ",
   "version": "1.0.0",
   "description": "Build for the NLW Together",
   "main": "src/server.js",
@@ -27,26 +27,4 @@
     "nodemon": "^2.0.7"
   }
 }
-{
-  "name": "RocketQ",
-  "version": "1.0.0",
-  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "nodemon .",
-    "init-db": "node src/db/init.js"
-  },
-  "keywords": [],
-  "author": "Roni Serra",
-  "license": "ISC",
-  "homepage": "https://github.com/falluk/NLW-TgT#readme",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "sqlite": "^4.0.23",
-    "sqlite3": "^5.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
-}
+
