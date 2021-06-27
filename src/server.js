@@ -10,9 +10,8 @@ server.use(express.static("public"))
 
 server.set('views', path.join(__dirname, 'views'))
 
-//Midleware que criptografa a senha! 
 server.use(express.urlencoded({extended: true}))
 
 server.use(route)
 
-server.listen(3003, () => console.log("Foi!!"))
+server.listen(3000, () => console.log("RODANDO"))
